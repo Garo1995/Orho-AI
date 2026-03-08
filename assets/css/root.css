@@ -1,0 +1,26 @@
+:root {
+    --bg-color: rgba(246, 246, 249, 1);
+    --black-color: rgba(34, 25, 44, 1);
+    --white-color: rgba(255, 255, 255, 1);
+    --text-color: rgba(105, 105, 125, 1);
+    --border-color: rgba(240, 229, 244, 1);
+    --total-black: rgba(23, 10, 26, 1);
+    --gray-color: rgba(204, 197, 212, 1);
+    --silver-color: rgba(245, 242, 248, 1);
+    --hover-menu: rgba(105, 105, 125, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: rgba(12, 6, 13, 1);
+        --black-color: rgba(250, 242, 255, 1);
+        --white-color: rgba(19, 9, 26, 1);
+        --text-color: rgba(105, 105, 125, 1);
+        --border-color: rgba(40, 27, 45, 1);
+        --total-black: rgba(9, 9, 17, 1);
+        --gray-color: rgba(53, 48, 60, 1);
+        --silver-color: rgba(19, 9, 26, 1);
+        --hover-menu: rgba(161, 152, 176, 1);
+
+    }
+}
