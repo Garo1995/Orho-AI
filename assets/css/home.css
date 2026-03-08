@@ -1270,12 +1270,12 @@ header{
 .submenu{
     display: none;
 }
-.submenu p{
+.submenu p {
     font-size: 16px;
     line-height: 20px;
     padding-right: 25px;
+    padding-top: 5px;
 }
-
 
 
 
@@ -2074,5 +2074,9 @@ footer{
     .reviews-box .global-name-sec span {
         font-size: 14px;
         line-height: 18px;
+    }
+    .submenu p {
+        padding-right: 15px;
+        padding-top: 5px;
     }
 }
