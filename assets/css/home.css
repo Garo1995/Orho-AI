@@ -223,10 +223,13 @@ header{
     max-width: 364px;
     width: 100%;
 }
-.banner-cards picture{
+
+.banner-cards-desc{
     display: flex;
 }
-
+.banner-cards-mobile{
+    display: none;
+}
 .banner-content{
     position: relative;
 }
@@ -421,6 +424,7 @@ header{
     height: 100%;
     border-radius: 20px;
 }
+
 .compliance-task:after{
     content: "";
     position: absolute;
@@ -1977,12 +1981,19 @@ footer{
     .the-future {
         background-image: url(../img/CTA-bg-mob.webp);
         height: 496px;
+        padding-top: 80px;
     }
     @media (prefers-color-scheme: dark) {
         .the-future {
             background-image: url(../img/CTA-bg-mob-dark.webp);
         }
     }
+    .the-future .container {
+        height: auto;
+        display: block;
+    }
+
+
     .footer-flex {
         flex-direction: column;
         gap: 40px;
@@ -2000,6 +2011,9 @@ footer{
 @media (max-width: 570px){
     .header-main {
         padding: 7px 8px 7px 16px;
+    }
+    .boxes-fon-one:before {
+        background-image: url("../img/BG-comp-mobile.png");
     }
 
     .boxes-fon-one:after{
@@ -2079,4 +2093,11 @@ footer{
         padding-right: 15px;
         padding-top: 5px;
     }
+    .banner-cards-desc{
+        display: none;
+    }
+    .banner-cards-mobile{
+        display: flex;
+    }
+
 }
